@@ -59,4 +59,4 @@ Cloud is where the industry is heading and I'm building the fundamentals for it.
 
 ---
 
-<sub>Reach me via cyber.gant@proton.me</sub>
+<sub>Reach me via rue.asha@proton.me</sub>
