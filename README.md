@@ -5,10 +5,11 @@
   - "Focus": 2 lines, touch roughly monthly. Deliberately WITHOUT a date —
     a visibly stale month costs more than the reminder is worth.
     Add a date only once the monthly routine actually holds.
-  - "Where I document": the sections mirror content/ in Rue-Asha.github.io.
+  - Site section: the three rows mirror content/ in Rue-Asha.github.io.
     If a section is added or renamed there, change it here too.
-  - Repo table: uncomment a row only once the repo is public and has real
-    content. Keep the pinned repos in the same order as the table.
+  - Repo table: kept commented out below. Uncomment it only once a repo is
+    public and has real content — the site is not a row in it, it has its
+    own section.
 -->
 
 # Rue Asha
@@ -36,9 +37,9 @@ I spend my days keeping on-prem systems running and hardened, and my evenings le
 
 ### How I write things up
 
-Every writeup ends with the same two questions: **how could this have been prevented, and how would it have been detected?**
+I write these for future-me first, which means the reasoning stays in — including the dead ends, because that is usually where the actual learning was.
 
-That angle comes from the operations side of my day job. Plenty of people can walk a box — far fewer can say what the defender should have seen in the logs while it happened. I also leave the dead ends in, because that is usually where the actual learning was.
+What I keep coming back to comes from the operations side of my day job: plenty of people can walk a box, far fewer can say what the defender should have seen in the logs while it happened.
 
 ### On-prem, and where it goes next
 
@@ -46,9 +47,9 @@ Cloud is where the industry is heading and I'm building the fundamentals for it.
 
 ---
 
-### Where I document
+## [rue-asha.github.io](https://rue-asha.github.io/)
 
-Everything lands in one place: **[rue-asha.github.io](https://rue-asha.github.io/)** — a Hugo site built from [`Rue-Asha.github.io`](https://github.com/Rue-Asha/Rue-Asha.github.io) and deployed on every push to `main`.
+Everything I write lands in one place — a Hugo site, source in [`Rue-Asha.github.io`](https://github.com/Rue-Asha/Rue-Asha.github.io), rebuilt on every push to `main`. Three sections:
 
 | Section | What's in it |
 |---|---|
@@ -60,18 +61,20 @@ Two rules keep it from rotting. Setup steps, commands and deploy instructions st
 
 Scope, for the avoidance of doubt: every technique documented there was applied to systems I own or was explicitly authorised to test — retired HackTheBox machines, TryHackMe rooms, CTF infrastructure, and my own homelab.
 
-### Repositories
+<!-- Repositories — uncomment the heading, the table header and a row once that
+     repo is public and has real content. Keep the pinned repos in the same
+     order as the table. The site itself is deliberately NOT a row here; it has
+     its own section above.
 
-<!-- Uncomment a row once the repo is public and has real content.
-     Keep the pinned repos in the same order as this table. -->
+### Repositories
 
 | Repository | What's in it |
 |---|---|
-| **[Rue-Asha.github.io](https://github.com/Rue-Asha/Rue-Asha.github.io)** | Source for the site above — Hugo + Hextra, GitHub Pages via Actions |
-<!-- | **[Homelab-Managment](https://github.com/Rue-Asha/Homelab-Managment)** | Ansible-managed Proxmox host: what runs where, and why | -->
-<!-- | **[Life-Managment-Dashboard](https://github.com/Rue-Asha/Life-Managment-Dashboard)** | One self-hosted app for tasks, uni, notes and finances | -->
-<!-- | **[Party-Game-Web-App](https://github.com/Rue-Asha/Party-Game-Web-App)** | Party games for a single screen — a study in deleting architecture | -->
+| **[Homelab-Managment](https://github.com/Rue-Asha/Homelab-Managment)** | Ansible-managed Proxmox host: what runs where, and why |
+| **[Life-Managment-Dashboard](https://github.com/Rue-Asha/Life-Managment-Dashboard)** | One self-hosted app for tasks, uni, notes and finances |
+| **[Party-Game-Web-App](https://github.com/Rue-Asha/Party-Game-Web-App)** | Party games for a single screen — a study in deleting architecture |
+-->
 
 ---
 
-<sub>Reach me via gant.cyber@proton.me</sub>
+<sub>Reach me via rue.asha@proton.me</sub>
