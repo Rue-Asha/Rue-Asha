@@ -1,17 +1,17 @@
 <!--
-  Repo-Name muss exakt dein GitHub-Username sein.
-  Platzhalter: [Name], LINK
+  Repo name must be exactly the GitHub username.
 
-  Wartung:
-  - "Focus": 2 Zeilen, etwa monatlich anfassen. Bewusst OHNE Datum —
-    ein sichtbar veralteter Monat kostet mehr, als die Erinnerung wert ist.
-    Datum erst ergänzen, wenn die monatliche Routine wirklich steht.
-  - Repo-Tabelle: eine Zeile erst einkommentieren, wenn das Repo echten Inhalt hat.
-    Pinned Repos in dieselbe Reihenfolge bringen wie die Tabelle.
-  - Nicht veröffentlichen, bevor writeups und homelab echten Inhalt haben.
+  Maintenance:
+  - "Focus": 2 lines, touch roughly monthly. Deliberately WITHOUT a date —
+    a visibly stale month costs more than the reminder is worth.
+    Add a date only once the monthly routine actually holds.
+  - "Where I document": the sections mirror content/ in Rue-Asha.github.io.
+    If a section is added or renamed there, change it here too.
+  - Repo table: uncomment a row only once the repo is public and has real
+    content. Keep the pinned repos in the same order as the table.
 -->
 
-# [Rue Asha]
+# Rue Asha
 
 Computer Science student and systems administrator, working my way from operations into security engineering.
 
@@ -21,8 +21,8 @@ I spend my days keeping on-prem systems running and hardened, and my evenings le
 
 ### Focus
 
-<!-- Schreib, was JETZT wahr ist. Klein und echt schlägt groß und geliehen.
-     Die spezifischere Version kommt in vier Monaten, wenn sie stimmt. -->
+<!-- Write what is true NOW. Small and real beats big and borrowed.
+     The more specific version comes in four months, when it holds. -->
 
 - **Security foundations** — currently the defensive modules: logging, monitoring, and the tooling side of detection
 - **Homelab** — building an environment to test hardening against my own attacks, and to see what the logs actually show while it happens
@@ -31,8 +31,8 @@ I spend my days keeping on-prem systems running and hardened, and my evenings le
 
 - **B.Sc. Computer Science** — TU Darmstadt
 - **Working student, systems administration** — on-prem infrastructure, system hardening
-  <!-- TODO: eine konkrete, unbedenkliche Sache ergänzen, sobald nennbar —
-       CIS-Baselines? SSH/PAM-Härtung? Patch-Pipeline? Backup-Restore-Tests? -->
+  <!-- TODO: add one concrete, non-sensitive detail once it can be named —
+       CIS baselines? SSH/PAM hardening? Patch pipeline? Backup restore tests? -->
 
 ### How I write things up
 
@@ -46,17 +46,32 @@ Cloud is where the industry is heading and I'm building the fundamentals for it.
 
 ---
 
+### Where I document
+
+Everything lands in one place: **[rue-asha.github.io](https://rue-asha.github.io/)** — a Hugo site built from [`Rue-Asha.github.io`](https://github.com/Rue-Asha/Rue-Asha.github.io) and deployed on every push to `main`.
+
+| Section | What's in it |
+|---|---|
+| **[Writeups](https://rue-asha.github.io/writeups/)** | Boxes, labs and CTF challenges — recon through root, reasoning left in. Grouped by platform: [HackTheBox](https://rue-asha.github.io/writeups/hackthebox/), [TryHackMe](https://rue-asha.github.io/writeups/tryhackme/), [CTF](https://rue-asha.github.io/writeups/ctf/) |
+| **[Projects](https://rue-asha.github.io/projects/)** | Living documentation for what I build — homelab, life dashboard, party games. One folder per project, so a page can grow into a handbook |
+| **[Journal](https://rue-asha.github.io/blog/)** | Short essays: what I learned this week, and what still doesn't click |
+
+Two rules keep it from rotting. Setup steps, commands and deploy instructions stay in each repo's README, next to the code that keeps them honest — the project pages carry the reasoning instead: why SQLite and not Postgres, what the trade-off costs, when it would stop being the right call. And there are no tags or categories: the section says what kind of page it is, the folder says which platform, and full-text search covers everything else without a vocabulary I'd have to hand-maintain.
+
+Scope, for the avoidance of doubt: every technique documented there was applied to systems I own or was explicitly authorised to test — retired HackTheBox machines, TryHackMe rooms, CTF infrastructure, and my own homelab.
+
 ### Repositories
 
-<!-- Zeilen einkommentieren, sobald das jeweilige Repo echten Inhalt hat.
-     Reihenfolge der Pinned Repos an diese Tabelle angleichen. -->
+<!-- Uncomment a row once the repo is public and has real content.
+     Keep the pinned repos in the same order as this table. -->
 
 | Repository | What's in it |
 |---|---|
-| **[writeups](LINK)** | Lab and CTF writeups, each with a prevention-and-detection postscript |
-| **[homelab](LINK)** | Lab architecture: what runs where, and why |
-| **[security-notes](LINK)** | Structured notes from my learning path
+| **[Rue-Asha.github.io](https://github.com/Rue-Asha/Rue-Asha.github.io)** | Source for the site above — Hugo + Hextra, GitHub Pages via Actions |
+<!-- | **[Homelab-Managment](https://github.com/Rue-Asha/Homelab-Managment)** | Ansible-managed Proxmox host: what runs where, and why | -->
+<!-- | **[Life-Managment-Dashboard](https://github.com/Rue-Asha/Life-Managment-Dashboard)** | One self-hosted app for tasks, uni, notes and finances | -->
+<!-- | **[Party-Game-Web-App](https://github.com/Rue-Asha/Party-Game-Web-App)** | Party games for a single screen — a study in deleting architecture | -->
 
 ---
 
-<sub>Reach me via rue.asha@proton.me</sub>
+<sub>Reach me via gant.cyber@proton.me</sub>
