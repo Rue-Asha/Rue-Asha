@@ -27,7 +27,6 @@ Identity, segmentation and patch discipline are the same problems in cloud, with
        CIS baselines? SSH/PAM hardening? Patch pipeline? Backup restore tests? -->
 
 ## [rue-asha.github.io](https://rue-asha.github.io/)
-Where I document all of it — a Hugo site, source in [`Rue-Asha.github.io`](https://github.com/Rue-Asha/Rue-Asha.github.io).
 
 | Section | What's in it |
 |---|---|
